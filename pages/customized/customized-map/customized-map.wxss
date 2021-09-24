@@ -1,0 +1,14 @@
+.map-view-container {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background: #F8F8F7;
+  width: 100%;
+  height: 100vh;
+}
+.custom-intro {
+	background: #fff;
+}
+.map {
+	flex: 1;
+}
