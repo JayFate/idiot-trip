@@ -118,6 +118,7 @@ Page({
 		if (startPoint) {
 			url += '&startPoint=' + startPoint;
 		}
+		// url = `plugin://routePlan/index?key=24JBZ-VB6CV-HPBPV-U72XF-IHVY2-NXBOL&referer=腾讯位置服务示例中心小程序&endPoint={"name":"西客站北广场","latitude":39.894806,"longitude":116.321592}&mode=driving&navigation=0&themeColor=#427CFF&startPoint={"name":"腾讯北京总部大楼","latitude":40.040417,"longitude":116.273514}`
 		wx.navigateTo({
 			url
 		});
